@@ -10,3 +10,8 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+#get user input
+userStoreName = $stdin.gets.chomp
+
+Store.create(name:userStoreName, annual_revenue:"", mens_apparel: "", womens_apparel: "")

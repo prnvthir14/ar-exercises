@@ -22,3 +22,9 @@ puts "STORE 4 -------- #{@store4}"
 @store5.employees.create(first_name: "Khuraaram", last_name: "Viran", hourly_rate: 60)
 @store6.employees.create(first_name: "Khurrssam", last_name: "Vira", hourly_rate: 60)
 @store4.employees.create(first_name: "Khurqqram", last_name: "Vir", hourly_rate: 60)
+
+@store4.employees.create(first_name: "Khurqqram", last_name: "Vir", hourly_rate: 40)
+
+@store4.employees.create(first_name: "Khurqqram", last_name: "Vir", hourly_rate: 40)
+
+@store4.employees.create(first_name: "Khurqqram", last_name: "Vir", hourly_rate: 40)
